@@ -1,0 +1,99 @@
+body{
+	width: all;
+	height: 5000px;
+	background-color:#C0C0C0;
+	
+}
+#header-block{
+	background-image:url(../images/background.png);
+	width:all;
+	height:400px;
+	margin:-10px;
+	box-shadow: 0 0 10px;
+	position:relative;
+}
+.logo{
+	background-image: url(../images/logo.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	box-shadow:0 0 10px;
+	width:all;
+	height:345px;
+}
+
+
+.top-bar{
+	background-color:black;
+	width:all;
+	height:50px;
+	padding:0;
+	opacity: 0.5;
+	transition-duration:1s;
+
+
+}
+.top-bar:hover{
+	opacity: 0.9;
+
+
+}
+.menu{
+	position:relative;
+	margin-left: 38%;
+}
+
+ul {
+  	list-style: none; /*убираем маркеры списка*/
+  	margin: 0; /*убираем отступы*/
+  	padding-left: 0; /*убираем отступы*/
+  	background:black; /*добавляем фон всему меню*/
+  	height: 50px; /*задаем высоту*/
+}
+a {
+  	text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  	background:black; /*добавляем фон к пункту меню*/
+  	color:white; /*меняем цвет ссылок*/
+  	padding:0px 15px; /*добавляем отступ*/
+  	font-family: arial; /*меняем шрифт*/
+  	line-height:50px; /*ровняем меню по вертикали*/
+  	display: block; 
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+a:hover {
+  	background:#DC143C;/*добавляем эффект при наведении*/
+}
+
+li {
+  	float:left; /*Размещаем список горизонтально для реализации меню*/
+  	position:relative; /*задаем позицию для позиционирования*/
+}
+     
+    /*Стили для скрытого выпадающего меню*/
+    li > ul {
+    position:absolute;
+    top:50px;
+    display:none;
+    }
+     
+    /*Делаем скрытую часть видимой*/
+    li:hover > ul {
+        display:block; 
+        width:100px;  /*Задаем ширину выпадающего меню*/      
+    }
+   li:hover > ul > li {
+        float:none; /*Убираем горизонтальное позиционирование*/
+    }
+
+#scrollup{
+	width:60px;
+	height:30px;
+	border-radius:10px;
+	background-color:red;
+	position:fixed;
+	left:90%;
+	top:90%;
+	box-shadow: 0 0 5px;
+	cursor: pointer;
+}
