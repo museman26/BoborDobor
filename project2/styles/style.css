@@ -1,0 +1,334 @@
+
+body{
+  background-color: #ccc;
+}
+
+
+
+#header{
+  background-image: url(../images/header-background2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  margin: -10px;
+  width: all;
+  height: 500px;
+
+}
+
+
+nav{
+  line-height: 60px;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+
+}
+
+.toolbar{
+  width:auto;
+  height:50px;
+  background-color:black;
+  opacity: 0.2;
+  position:relative;
+  transition-duration: 1s;
+}
+.toolbar:hover{
+  opacity: 0.9;
+  transition: 1s;
+}
+a{
+  text-decoration: none;
+  color:white;
+  margin:10px;
+  font-family:appetite;
+}
+
+#faq{
+  width:auto;
+  height:auto;
+  background-image:url(../images/background-gaus.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:all;
+  height: auto;
+  position: relative;
+  margin: -10px;
+  overflow: hidden;
+  position: relative;
+  box-shadow:0 3px 30px;
+}
+.name-faq{
+  color:white;
+  top:30px;
+  margin:auto;
+  text-align: center;
+  font-size: 70px;
+  height: auto;
+  position: relative;
+  font-family:fantasy;
+}
+.image-cube-gif {
+  background-image: url(../images/fidget.gif);
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  margin-top: 30px;
+  width: 500px;
+  height: 300px;
+  position: relative;
+  border:5px solid white;
+  box-shadow:0 0 10px;
+
+}
+
+.about-cube{
+  width:auto;
+  height: auto;
+  position: relative;
+}
+/**Кнопка ебана ее**/
+a.button13 {
+  display: inline-block;
+  width: 15em;
+  font-size: 80%;
+  color: rgba(255,255,255,.9);
+  text-shadow: #2e7ebd 0 1px 2px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1.1;
+  white-space: pre-line;
+  padding: .7em 0;
+  border: 1px solid;
+  border-color: #60a3d8 #2970a9 #2970a9 #60a3d8;
+  border-radius: 6px;
+  background: #60a3d8 linear-gradient(#89bbe2, #60a3d8 50%, #378bce);
+  box-shadow: inset rgba(255,255,255,.5) 1px 1px;
+  position: relative;
+}
+a.button13:first-line{
+  font-size: 170%;
+  font-weight: 700;
+}
+a.button13:hover {
+  color: rgb(255,255,255);
+  background-image: linear-gradient(#9dc7e7, #74afdd 50%, #378bce);
+}
+a.button13:active {
+  color: rgb(255,255,255);
+  border-color: #2970a9;
+  background-image: linear-gradient(#5796c8, #6aa2ce);
+  box-shadow: none;
+}
+/**Конец кнопки**/
+
+/**Начало секции Что же он умеет?)**/
+#functions{
+  width: auto;
+  height:auto;
+  background-color: white;
+  margin:-10px;
+}
+.name-functions{
+  font-size: 70px;
+  margin: auto;
+  top:20px;
+  position: relative;
+  text-align: center;
+
+}
+.all-cubes{
+  margin: auto;
+  width:all;
+  height:auto;
+  position: relative;
+}
+
+
+
+.click-cube{
+background-image: url(../images/click-cube.png);
+background-size:cover;
+margin:25px;
+width:190px;
+height:190px;
+display: inline-block;
+position: relative;
+}
+.click-cube-color{
+  margin:auto;
+  width:200px;
+  height:200px;
+  display: inline-block;
+  position: relative;
+  transition-duration:0.5s;
+}
+
+.click-cube:hover .click-cube-color {
+  background-color:rgba(149, 118, 234, 1);
+  transition:0.5s;
+}
+
+
+
+
+.glide-cube{
+background-image: url(../images/glide-cube.png);
+background-size:cover;
+margin:25px;
+width:190px;
+height:190px;
+display: inline-block;
+position: relative;
+}
+.glide-cube-color{
+  margin:auto;
+  width:200px;
+  height:200px;
+  display: inline-block;
+  position: relative;
+  transition-duration:0.5s;
+
+}
+.glide-cube:hover .glide-cube-color {
+  background-color:rgba(118, 147, 234, 1);
+  transition:0.5s;
+}
+
+
+
+
+.flip-cube{
+background-image: url(../images/flip-cube.png);
+background-size:cover;
+margin:25px;
+width:190px;
+height:180px;
+display: inline-block;
+position: relative;
+}
+.flip-cube-color{
+  margin:auto;
+  width:200px;
+  height:200px;
+  display: inline-block;
+  position: relative;
+transition-duration:0.5s;
+}
+.flip-cube:hover .flip-cube-color {
+  background-color:rgba(234, 118, 139, 1);
+  transition:0.5s;
+}
+
+
+.roll-cube{
+background-image: url(../images/roll-cube.png);
+background-size:cover;
+margin:25px;
+width:190px;
+height:190px;
+display: inline-block;
+position: relative;
+}
+.roll-cube-color{
+  margin:auto;
+  width:200px;
+  height:200px;
+  display: inline-block;
+  position: relative;
+  transition-duration:0.5s;
+}
+.roll-cube:hover .roll-cube-color {
+  background-color:rgba(118, 234, 132, 1);
+  transition:0.5s;
+}
+
+
+
+.breathe-cube{
+background-image: url(../images/breathe-cube.png);
+background-size:cover;
+margin:25px;
+width:190px;
+height:190px;
+display: inline-block;
+position: relative;
+}
+.breathe-cube-color{
+  margin:auto;
+  width:200px;
+  height:200px;
+  display: inline-block;
+  position: relative;
+  transition-duration:0.5s;
+}
+.breathe-cube:hover .breathe-cube-color {
+  background-color:rgba(255, 247, 92, 1);
+  transition:0.5s;
+}
+
+
+
+.spin-cube{
+background-image: url(../images/spin-cube.png);
+background-size:cover;
+margin:25px;
+width:190px;
+height:190px;
+display: inline-block;
+position: relative;
+}
+
+.spin-cube-color{
+  margin:auto;
+  width:200px;
+  height:200px;
+  display: inline-block;
+  position: relative;
+  transition-duration:0.5s;
+}
+
+.spin-cube:hover .spin-cube-color {
+  background-color:rgba(255, 247, 92, 1);
+  transition:0.5s;
+}
+
+
+
+/**Секция Покупки**/
+#buy {
+  background-image:url(../images/buy-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width:all;
+  height:500px;
+  margin:-10px;
+  box-shadow:0 0 15px;
+
+}
+.name-buy{
+  font-size: 70px;
+  margin: auto;
+  top:20px;
+  position: relative;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+footer{
+  background-color: #ccc;
+  width:all;
+  height:100px;
+  margin:-10px;
+}
