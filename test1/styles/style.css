@@ -1,0 +1,149 @@
+body{
+    background-color:#2E282A;
+}
+
+.topBar{
+    width:auto;
+    height:60px auto;
+    margin:-10px;
+    background-color:#231F20;
+    opacity: 0.5;
+    box-shadow: 1px 1px 5px;
+    position:relative;
+}
+
+.buttomTopBar{
+    font-family:arial;
+    padding: 8px;
+    margin: 8px;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+    position: relative;
+    transition-duration:2s;
+   
+}
+.buttomTopBar: hover {
+    transition-property: 2s;
+    color:aqua;
+}
+
+#topBackgroundForms{
+    background: url("../images/background5.png");
+    background-position:center;
+    width:auto;
+    height:700px;
+    margin:-3px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    position: relative;
+    box-shadow: 1px 1px 20px;
+    
+    
+}
+
+.logo{
+    background: url("../images/logo3.png");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: contain;
+    left:auto;
+    right:auto;
+    margin-top:100px;
+    width:auto;
+    height: 350px;
+    position: relative;
+}
+
+
+/*Кнопка заказа*/
+.button{
+    width:130px;
+    height:30px;
+    top:80%;
+    left:50%;
+    right:50%;
+    font-family:arial;
+    background-color: #4CAF50; /* Green*/
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    position: absolute;
+    border: 3px solid white;
+    box-shadow: 1px 1px 30px;
+    transition-duration: 1s;
+}
+
+.button:hover{
+    background-color: #ff5c77;
+    transition:1s;
+}
+
+#socialButtom{
+    background-color: darkgray;
+    width: 130px;
+    top:10%;
+    left:0;
+    right:50%;
+    position: absolute;
+    opacity: 0.1;
+    border-radius: 0px 10px 10px 0px;
+    transition-duration: 1s;
+}
+
+#socialButtom:hover{
+   opacity: 0.7; 
+    transition:1s;
+}
+
+
+.socialButtomInstagram{
+    width:100px;
+    height:100px;
+    margin:5px;
+    border:8px solid white;
+    border-radius: 100px;
+    position: relative;
+    background-image:url("../images/instagram100x100.png");
+    box-shadow: 1px 1px 10px;
+    display: inline-block;
+    
+}
+.socialButtomInstagram:active{
+    border:8px solid #ff5c77;
+}
+
+
+.socialButtomVk{
+    width:100px;
+    height:100px;
+    border:8px solid white;
+    border-radius: 100px;
+    position: relative;
+    background-image:url("../images/vk100x100.png");
+    box-shadow: 1px 1px 10px;
+    display: inline-block;
+    margin:5px;
+}
+
+.socialButtomVk:active{
+    border:8px solid #ff5c77;
+}
+
+.socialButtomYoutube{
+     width:100px;
+    height:100px;
+    border:8px solid white;
+    border-radius: 100px;
+    position: relative;
+    background-image:url("../images/youtube100x100.png");
+    box-shadow: 1px 1px 10px;
+    display: inline-block;
+    margin:5px;
+}
+.socialButtomYoutube:active{
+    border:8px solid #ff5c77;
+}
