@@ -1,0 +1,192 @@
+@font-face {
+font-family: DroidSans;
+src: url("../fonts/DroidSans.ttf"); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+font-weight: normal;
+font-style: normal;
+  }
+
+body{
+    width:100%;
+    background-color: beige;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    line-height: 1.5;
+}
+
+
+header{
+    width:100%;
+    height:700px;
+    background-image: url(../images/2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    justify-content:center;
+    flex-flow: row wrap;
+}
+.nav-flex{
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    z-index: 99999;
+    position: fixed;
+    flex-flow: row wrap;
+    box-shadow: 0px 0px 10px 5px;
+}
+.logo{
+    top: 5px;
+    left: 25px;
+    position:absolute;
+    opacity: 1;
+    box-sizing:content-box;}
+
+
+a{
+    text-decoration:none;
+    color:white;
+    margin:10px;
+    font-size:25px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+a:hover {
+    color:#F16470;
+}
+
+.info{
+    width:auto;
+    height: 500px;
+    top:150px;
+    position:relative;
+    
+}
+
+.photo-profile{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width:250px;
+    height:250px;
+    position:relative;
+    justify-content:center;
+    background-image: url(../images/photo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 110px 110px 110px 110px;
+}
+
+.button{
+    width:250px;
+    height:50px;
+    background-color:#F16470;
+    position: relative;
+    text-align: center;
+    font-size:20px;
+    color:#FFFFFF;
+    box-shadow: 0px 0px 10px black;
+    transition:1s;
+    
+}
+.button:hover {
+    box-shadow: 0px 0px 10px #FFFFFF;
+}
+h1{
+    text-align: center;
+    color: #FFFFFF;
+    font-family:DroidSans;
+    
+}
+.text-menu{
+    color:white;
+}
+p{
+    text-align: center;
+    color: #black;
+    font-size:20px;
+     
+}
+
+
+#content{
+    width:100%;
+    background-color: white;
+    overflow: hidden;
+}
+.about-content-flex{
+    background-color:white;
+    width:100%;
+    height: auto;
+    display:flex;
+    flex-direction:column-reverse;
+    justify-content:center;
+    
+}
+
+.photo-about{
+    margin: 30px;
+    width:400px;
+    height:400px;
+    background-image: url("../images/photo2.jpg");
+    background-repeat:no-repeat;
+    background-size: contain;
+    align-self:center;
+        
+}
+h2{
+    text-align: center;
+    font-size:30px;
+}
+.text-about{
+    margin:30px;
+    width:auto;
+    height:auto;
+    color:black;
+}
+
+
+.abilities-content-flex{
+    top:50px;
+    background-color:white;
+    width:100%;
+    height: auto;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:center;
+    align-items: center;
+}
+
+.block-html{
+    margin:20px;
+    width:200px;
+    height:200px;
+    background-color: aqua;
+    
+}
+
+.block-css{
+    margin:20px;
+  width:200px;
+    height:200px;
+    background-color:darksalmon;  
+}
+
+.block-javascript{
+    margin:20px;
+    width:200px;
+    height:200px;
+    background-color:darkviolet; 
+}
+
+.block-photoshop{ 
+    margin:20px;
+    width:200px;
+    height:200px;
+    background-color:forestgreen; 
+}
